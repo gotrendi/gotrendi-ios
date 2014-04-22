@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEA67CA1906A0C8006B4394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA67C91906A0C8006B4394 /* Foundation.framework */; };
+		FAEA67CC1906A0C8006B4394 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA67CB1906A0C8006B4394 /* CoreGraphics.framework */; };
+		FAEA67CE1906A0C8006B4394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA67CD1906A0C8006B4394 /* UIKit.framework */; };
+		FAEA67D41906A0C9006B4394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEA67D21906A0C9006B4394 /* InfoPlist.strings */; };
+		FAEA67D61906A0C9006B4394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA67D51906A0C9006B4394 /* main.m */; };
+		FAEA67DA1906A0C9006B4394 /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA67D91906A0C9006B4394 /* GTAppDelegate.m */; };
+		FAEA67DC1906A0C9006B4394 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEA67DB1906A0C9006B4394 /* Images.xcassets */; };
+		FAEA67E31906A0C9006B4394 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA67E21906A0C9006B4394 /* XCTest.framework */; };
+		FAEA67E41906A0C9006B4394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA67C91906A0C8006B4394 /* Foundation.framework */; };
+		FAEA67E51906A0C9006B4394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA67CD1906A0C8006B4394 /* UIKit.framework */; };
+		FAEA67ED1906A0C9006B4394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEA67EB1906A0C9006B4394 /* InfoPlist.strings */; };
+		FAEA67EF1906A0C9006B4394 /* GoTrendiAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA67EE1906A0C9006B4394 /* GoTrendiAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEA67E61906A0C9006B4394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEA67BE1906A0C8006B4394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEA67C51906A0C8006B4394;
+			remoteInfo = GoTrendiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEA67C61906A0C8006B4394 /* GoTrendiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTrendiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEA67C91906A0C8006B4394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAEA67CB1906A0C8006B4394 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAEA67CD1906A0C8006B4394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAEA67D11906A0C9006B4394 /* GoTrendiApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoTrendiApp-Info.plist"; sourceTree = "<group>"; };
+		FAEA67D31906A0C9006B4394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAEA67D51906A0C9006B4394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAEA67D71906A0C9006B4394 /* GoTrendiApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoTrendiApp-Prefix.pch"; sourceTree = "<group>"; };
+		FAEA67D81906A0C9006B4394 /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		FAEA67D91906A0C9006B4394 /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
+		FAEA67DB1906A0C9006B4394 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAEA67E11906A0C9006B4394 /* GoTrendiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoTrendiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEA67E21906A0C9006B4394 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAEA67EA1906A0C9006B4394 /* GoTrendiAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoTrendiAppTests-Info.plist"; sourceTree = "<group>"; };
+		FAEA67EC1906A0C9006B4394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAEA67EE1906A0C9006B4394 /* GoTrendiAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoTrendiAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEA67C31906A0C8006B4394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA67CC1906A0C8006B4394 /* CoreGraphics.framework in Frameworks */,
+				FAEA67CE1906A0C8006B4394 /* UIKit.framework in Frameworks */,
+				FAEA67CA1906A0C8006B4394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA67DE1906A0C9006B4394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA67E31906A0C9006B4394 /* XCTest.framework in Frameworks */,
+				FAEA67E51906A0C9006B4394 /* UIKit.framework in Frameworks */,
+				FAEA67E41906A0C9006B4394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEA67BD1906A0C8006B4394 = {
+			isa = PBXGroup;
+			children = (
+				FAEA67CF1906A0C9006B4394 /* GoTrendiApp */,
+				FAEA67E81906A0C9006B4394 /* GoTrendiAppTests */,
+				FAEA67C81906A0C8006B4394 /* Frameworks */,
+				FAEA67C71906A0C8006B4394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEA67C71906A0C8006B4394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA67C61906A0C8006B4394 /* GoTrendiApp.app */,
+				FAEA67E11906A0C9006B4394 /* GoTrendiAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEA67C81906A0C8006B4394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA67C91906A0C8006B4394 /* Foundation.framework */,
+				FAEA67CB1906A0C8006B4394 /* CoreGraphics.framework */,
+				FAEA67CD1906A0C8006B4394 /* UIKit.framework */,
+				FAEA67E21906A0C9006B4394 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAEA67CF1906A0C9006B4394 /* GoTrendiApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA67D81906A0C9006B4394 /* GTAppDelegate.h */,
+				FAEA67D91906A0C9006B4394 /* GTAppDelegate.m */,
+				FAEA67DB1906A0C9006B4394 /* Images.xcassets */,
+				FAEA67D01906A0C9006B4394 /* Supporting Files */,
+			);
+			path = GoTrendiApp;
+			sourceTree = "<group>";
+		};
+		FAEA67D01906A0C9006B4394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA67D11906A0C9006B4394 /* GoTrendiApp-Info.plist */,
+				FAEA67D21906A0C9006B4394 /* InfoPlist.strings */,
+				FAEA67D51906A0C9006B4394 /* main.m */,
+				FAEA67D71906A0C9006B4394 /* GoTrendiApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAEA67E81906A0C9006B4394 /* GoTrendiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA67EE1906A0C9006B4394 /* GoTrendiAppTests.m */,
+				FAEA67E91906A0C9006B4394 /* Supporting Files */,
+			);
+			path = GoTrendiAppTests;
+			sourceTree = "<group>";
+		};
+		FAEA67E91906A0C9006B4394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA67EA1906A0C9006B4394 /* GoTrendiAppTests-Info.plist */,
+				FAEA67EB1906A0C9006B4394 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEA67C51906A0C8006B4394 /* GoTrendiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEA67F21906A0C9006B4394 /* Build configuration list for PBXNativeTarget "GoTrendiApp" */;
+			buildPhases = (
+				FAEA67C21906A0C8006B4394 /* Sources */,
+				FAEA67C31906A0C8006B4394 /* Frameworks */,
+				FAEA67C41906A0C8006B4394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoTrendiApp;
+			productName = GoTrendiApp;
+			productReference = FAEA67C61906A0C8006B4394 /* GoTrendiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEA67E01906A0C9006B4394 /* GoTrendiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEA67F51906A0C9006B4394 /* Build configuration list for PBXNativeTarget "GoTrendiAppTests" */;
+			buildPhases = (
+				FAEA67DD1906A0C9006B4394 /* Sources */,
+				FAEA67DE1906A0C9006B4394 /* Frameworks */,
+				FAEA67DF1906A0C9006B4394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEA67E71906A0C9006B4394 /* PBXTargetDependency */,
+			);
+			name = GoTrendiAppTests;
+			productName = GoTrendiAppTests;
+			productReference = FAEA67E11906A0C9006B4394 /* GoTrendiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEA67BE1906A0C8006B4394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = GoTrendi;
+				TargetAttributes = {
+					FAEA67E01906A0C9006B4394 = {
+						TestTargetID = FAEA67C51906A0C8006B4394;
+					};
+				};
+			};
+			buildConfigurationList = FAEA67C11906A0C8006B4394 /* Build configuration list for PBXProject "GoTrendiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAEA67BD1906A0C8006B4394;
+			productRefGroup = FAEA67C71906A0C8006B4394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEA67C51906A0C8006B4394 /* GoTrendiApp */,
+				FAEA67E01906A0C9006B4394 /* GoTrendiAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEA67C41906A0C8006B4394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA67D41906A0C9006B4394 /* InfoPlist.strings in Resources */,
+				FAEA67DC1906A0C9006B4394 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA67DF1906A0C9006B4394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA67ED1906A0C9006B4394 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEA67C21906A0C8006B4394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA67D61906A0C9006B4394 /* main.m in Sources */,
+				FAEA67DA1906A0C9006B4394 /* GTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA67DD1906A0C9006B4394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA67EF1906A0C9006B4394 /* GoTrendiAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEA67E71906A0C9006B4394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEA67C51906A0C8006B4394 /* GoTrendiApp */;
+			targetProxy = FAEA67E61906A0C9006B4394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEA67D21906A0C9006B4394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEA67D31906A0C9006B4394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAEA67EB1906A0C9006B4394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEA67EC1906A0C9006B4394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEA67F01906A0C9006B4394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEA67F11906A0C9006B4394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEA67F31906A0C9006B4394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoTrendiApp/GoTrendiApp-Prefix.pch";
+				INFOPLIST_FILE = "GoTrendiApp/GoTrendiApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAEA67F41906A0C9006B4394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoTrendiApp/GoTrendiApp-Prefix.pch";
+				INFOPLIST_FILE = "GoTrendiApp/GoTrendiApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAEA67F61906A0C9006B4394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoTrendiApp.app/GoTrendiApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoTrendiApp/GoTrendiApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GoTrendiAppTests/GoTrendiAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAEA67F71906A0C9006B4394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GoTrendiApp.app/GoTrendiApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoTrendiApp/GoTrendiApp-Prefix.pch";
+				INFOPLIST_FILE = "GoTrendiAppTests/GoTrendiAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEA67C11906A0C8006B4394 /* Build configuration list for PBXProject "GoTrendiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEA67F01906A0C9006B4394 /* Debug */,
+				FAEA67F11906A0C9006B4394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEA67F21906A0C9006B4394 /* Build configuration list for PBXNativeTarget "GoTrendiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEA67F31906A0C9006B4394 /* Debug */,
+				FAEA67F41906A0C9006B4394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAEA67F51906A0C9006B4394 /* Build configuration list for PBXNativeTarget "GoTrendiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEA67F61906A0C9006B4394 /* Debug */,
+				FAEA67F71906A0C9006B4394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEA67BE1906A0C8006B4394 /* Project object */;
+}
